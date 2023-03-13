@@ -111,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PointTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PointTest.mult" />
         <item itemvalue="JUnit.PointTest.sub" />
         <item itemvalue="JUnit.PointTest.add" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678691311578</updated>
-      <workItem from="1678691313079" duration="6733000" />
+      <workItem from="1678691313079" duration="10872000" />
     </task>
     <task id="LOCAL-00001" summary="lösung Aufgabe9">
       <created>1678694551413</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678697897949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lösung Aufgabe9">
+      <created>1678698138601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678698138601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

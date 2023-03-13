@@ -14,6 +14,7 @@ class PointTest {
     public void initPoints() {
         pointOne = new Point(10.0, 10.0);
         pointTwo = new Point(2.0, 2.0);
+        System.out.println("hi");
     }
 
     @Test
@@ -22,14 +23,18 @@ class PointTest {
 
         assertEquals(pointThree.getX(), 12.0, DELTA);
         assertEquals(pointThree.getY(), 12.0, DELTA);
+
+        System.out.println("add");
     }
 
     @Test
-    void substract() {
-        Point pointThree = pointOne.subract(pointTwo);
+    void subtract() {
+        Point pointThree = pointOne.subtract(pointTwo);
 
         assertEquals(pointThree.getX(), 8.0, DELTA);
         assertEquals(pointThree.getY(), 8.0, DELTA);
+
+        System.out.println("sub");
     }
 
     @Test
@@ -38,6 +43,8 @@ class PointTest {
 
         assertEquals(pointThree.getX(), 20.0, DELTA);
         assertEquals(pointThree.getY(), 20.0, DELTA);
+
+        System.out.println("mult");
     }
 
     @Test
@@ -46,5 +53,7 @@ class PointTest {
 
         assertEquals(pointThree.getX(), 5.0, DELTA);
         assertEquals(pointThree.getY(), 5.0, DELTA);
+
+        System.out.println("div");
     }
 }
