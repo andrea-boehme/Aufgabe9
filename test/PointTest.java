@@ -25,24 +25,24 @@ class PointTest {
     }
 
     @Test
-    void sub() {
-        Point pointThree = pointOne.sub(pointTwo);
+    void substract() {
+        Point pointThree = pointOne.subract(pointTwo);
 
         assertEquals(pointThree.getX(), 8.0, DELTA);
         assertEquals(pointThree.getY(), 8.0, DELTA);
     }
 
     @Test
-    void mult() {
-        Point pointThree = pointOne.mult(2.0);
+    void multiply() {
+        Point pointThree = pointOne.multiply(2.0);
 
         assertEquals(pointThree.getX(), 20.0, DELTA);
         assertEquals(pointThree.getY(), 20.0, DELTA);
     }
 
     @Test
-    void div() {
-        Point pointThree = pointOne.div(2.0);
+    void divide() {
+        Point pointThree = pointOne.divide(2.0);
 
         assertEquals(pointThree.getX(), 5.0, DELTA);
         assertEquals(pointThree.getY(), 5.0, DELTA);

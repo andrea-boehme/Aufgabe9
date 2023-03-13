@@ -32,21 +32,21 @@ public class Point {
         return new Point(x_result, y_result);
     }
 
-    public Point sub(Point p) {
+    public Point subract(Point p) {
         double x_result = x - p.getX();
         double y_result = y - p.getY();
 
         return new Point(x_result, y_result);
     }
 
-    public Point mult(double p) {
+    public Point multiply(double p) {
         double x_result = x * p;
         double y_result = y * p;
 
         return new Point(x_result, y_result);
     }
 
-    public Point div(double p) {
+    public Point divide(double p) {
         double x_result = x / p;
         double y_result = y / p;
 
