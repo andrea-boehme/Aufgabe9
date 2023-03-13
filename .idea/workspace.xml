@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090f2e46-f276-4878-82fe-90cb1e0d8eec" name="Changes" comment="lösung Aufgabe9">
+    <list default="true" id="090f2e46-f276-4878-82fe-90cb1e0d8eec" name="Changes" comment="documentation Aufgabe9">
+      <change afterPath="$PROJECT_DIR$/src/PointUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PointTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PointTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Aufgabe9" />
@@ -110,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PointTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PointTest" />
         <item itemvalue="JUnit.PointTest.mult" />
         <item itemvalue="JUnit.PointTest.sub" />
         <item itemvalue="JUnit.PointTest.add" />
@@ -126,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678691311578</updated>
-      <workItem from="1678691313079" duration="10872000" />
+      <workItem from="1678691313079" duration="13393000" />
     </task>
     <task id="LOCAL-00001" summary="lösung Aufgabe9">
       <created>1678694551413</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678698138601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="documentation Aufgabe9">
+      <created>1678702455089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678702455089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lösung Aufgabe9" />
-    <option name="LAST_COMMIT_MESSAGE" value="lösung Aufgabe9" />
+    <MESSAGE value="documentation Aufgabe9" />
+    <option name="LAST_COMMIT_MESSAGE" value="documentation Aufgabe9" />
   </component>
 </project>

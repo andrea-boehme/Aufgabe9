@@ -13,8 +13,14 @@ public class Main {
         Point p3 = p1.add(p2);
         Point p4 = p1.subtract(p2);
 
+        Point newPoint = PointUtils.addPoints(p1, p2);
+
         System.out.println( "Point 1: " + p1 + ", Point 2: " + p2);
         System.out.println("Addition: " + p3);
         System.out.println("Subtraction: " + p4);
+
+        System.out.println("new Point: " + newPoint);
+
+        System.out.println(PointUtils.NEW_POINT);
     }
 }
