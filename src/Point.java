@@ -9,6 +9,12 @@ public class Point {
         this.y = y;
     }
 
+    /*
+    public void setX(double x) {
+        this.x = x;
+    }
+    */
+
     // create getter method for x
     public double getX() {
         return x;
@@ -33,16 +39,16 @@ public class Point {
         return new Point(x_result, y_result);
     }
 
-    public Point mult(Point p) {
-        double x_result = x * p.getX();
-        double y_result = y * p.getY();
+    public Point mult(double p) {
+        double x_result = x * p;
+        double y_result = y * p;
 
         return new Point(x_result, y_result);
     }
 
-    public Point div(Point p) {
-        double x_result = x / p.getX();
-        double y_result = y / p.getY();
+    public Point div(double p) {
+        double x_result = x / p;
+        double y_result = y / p;
 
         return new Point(x_result, y_result);
     }
