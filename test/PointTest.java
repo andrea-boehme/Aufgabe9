@@ -14,15 +14,15 @@ class PointTest {
     public void initPoints() {
         pointOne = new Point(10.0, 10.0);
         pointTwo = new Point(2.0, 2.0);
-        System.out.println("hi");
+        System.out.println("--");
     }
 
     @Test
     void add() {
         Point pointThree = pointOne.add(pointTwo);
 
-        assertEquals(pointThree.getX(), 12.0, DELTA);
-        assertEquals(pointThree.getY(), 12.0, DELTA);
+        assertEquals(12.0, pointThree.getX(), DELTA);
+        assertEquals(12.0, pointThree.getY(), DELTA);
 
         System.out.println("add");
     }
@@ -31,8 +31,8 @@ class PointTest {
     void subtract() {
         Point pointThree = pointOne.subtract(pointTwo);
 
-        assertEquals(pointThree.getX(), 8.0, DELTA);
-        assertEquals(pointThree.getY(), 8.0, DELTA);
+        assertEquals(8.0, pointThree.getX(), DELTA);
+        assertEquals(8.0, pointThree.getY(), DELTA);
 
         System.out.println("sub");
     }
@@ -41,8 +41,8 @@ class PointTest {
     void multiply() {
         Point pointThree = pointOne.multiply(2.0);
 
-        assertEquals(pointThree.getX(), 20.0, DELTA);
-        assertEquals(pointThree.getY(), 20.0, DELTA);
+        assertEquals(20.0, pointThree.getX(), DELTA);
+        assertEquals(20.0, pointThree.getY(), DELTA);
 
         System.out.println("mult");
     }
@@ -51,8 +51,8 @@ class PointTest {
     void divide() {
         Point pointThree = pointOne.divide(2.0);
 
-        assertEquals(pointThree.getX(), 5.0, DELTA);
-        assertEquals(pointThree.getY(), 5.0, DELTA);
+        assertEquals(5.0, pointThree.getX(), DELTA);
+        assertEquals(5.0, pointThree.getY(), DELTA);
 
         System.out.println("div");
     }

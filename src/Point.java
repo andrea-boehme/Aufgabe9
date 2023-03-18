@@ -77,7 +77,18 @@ public class Point {
     }
 }
 
-/*
+// The method that is used to set/modify the value of a private instance variable of a class is known as a setter method and,
+// the method that is used to retrieve the value of a private instance variable is known as a getter method.
+// Encapsulating this class by making the variables private (e.g. x and y) and providing setter and getter methods.
+// If you want to access these variables you cannot access them directly,
+// you can just use the provided setter and getter methods to read and write their values.
+// The variables which you haven’t provided these methods will be completely hidden from the outside classes.
+
+// By making the variable a private data member, you can more easily ensure that the value is never negative.
+// On the other hand, if the variable is public, another class could change it to a negative value which can cause other parts
+// of the code to crash.
+
+/* here no need for setter method as already in the constructor
     public void setX(double x) {
         this.x = x;
     }

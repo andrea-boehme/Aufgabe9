@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="090f2e46-f276-4878-82fe-90cb1e0d8eec" name="Changes" comment="finished Aufgabe9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PointTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PointTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Aufgabe9" />
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PointTest" />
+        <item itemvalue="JUnit.PointTest.add" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PointTest.mult" />
         <item itemvalue="JUnit.PointTest.sub" />
-        <item itemvalue="JUnit.PointTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +126,10 @@
       <option name="presentableId" value="Default" />
       <updated>1678691311578</updated>
       <workItem from="1678691313079" duration="18868000" />
-      <workItem from="1678778835537" duration="2528000" />
+      <workItem from="1678778835537" duration="3146000" />
+      <workItem from="1678870414443" duration="225000" />
+      <workItem from="1678877114074" duration="116000" />
+      <workItem from="1679178127543" duration="1712000" />
     </task>
     <task id="LOCAL-00001" summary="lösung Aufgabe9">
       <created>1678694551413</created>
@@ -168,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678710673607</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished Aufgabe9">
+      <created>1678782192493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678782192493</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
